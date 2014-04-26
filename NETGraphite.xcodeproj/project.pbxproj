@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50B856B5190C359E00C7A61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B4190C359E00C7A61A /* Foundation.framework */; };
+		50B856BA190C359F00C7A61A /* NETGraphite.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B856B9190C359F00C7A61A /* NETGraphite.h */; };
+		50B856BC190C359F00C7A61A /* NETGraphite.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856BB190C359F00C7A61A /* NETGraphite.m */; };
+		50B856C3190C359F00C7A61A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856C2190C359F00C7A61A /* XCTest.framework */; };
+		50B856C4190C359F00C7A61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B4190C359E00C7A61A /* Foundation.framework */; };
+		50B856C6190C359F00C7A61A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856C5190C359F00C7A61A /* UIKit.framework */; };
+		50B856C9190C359F00C7A61A /* libNETGraphite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B1190C359E00C7A61A /* libNETGraphite.a */; };
+		50B856CF190C359F00C7A61A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B856CD190C359F00C7A61A /* InfoPlist.strings */; };
+		50B856D1190C359F00C7A61A /* NETGraphiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856D0190C359F00C7A61A /* NETGraphiteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B856C7190C359F00C7A61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B856A9190C359E00C7A61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B856B0190C359E00C7A61A;
+			remoteInfo = NETGraphite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50B856AF190C359E00C7A61A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				50B856BA190C359F00C7A61A /* NETGraphite.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50B856B1190C359E00C7A61A /* libNETGraphite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNETGraphite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B856B4190C359E00C7A61A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50B856B8190C359F00C7A61A /* NETGraphite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NETGraphite-Prefix.pch"; sourceTree = "<group>"; };
+		50B856B9190C359F00C7A61A /* NETGraphite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NETGraphite.h; sourceTree = "<group>"; };
+		50B856BB190C359F00C7A61A /* NETGraphite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NETGraphite.m; sourceTree = "<group>"; };
+		50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NETGraphiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B856C2190C359F00C7A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50B856C5190C359F00C7A61A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		50B856CC190C359F00C7A61A /* NETGraphiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NETGraphiteTests-Info.plist"; sourceTree = "<group>"; };
+		50B856CE190C359F00C7A61A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50B856D0190C359F00C7A61A /* NETGraphiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NETGraphiteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B856AE190C359E00C7A61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856B5190C359E00C7A61A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B856BE190C359F00C7A61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856C3190C359F00C7A61A /* XCTest.framework in Frameworks */,
+				50B856C9190C359F00C7A61A /* libNETGraphite.a in Frameworks */,
+				50B856C6190C359F00C7A61A /* UIKit.framework in Frameworks */,
+				50B856C4190C359F00C7A61A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B856A8190C359E00C7A61A = {
+			isa = PBXGroup;
+			children = (
+				50B856B6190C359F00C7A61A /* NETGraphite */,
+				50B856CA190C359F00C7A61A /* NETGraphiteTests */,
+				50B856B3190C359E00C7A61A /* Frameworks */,
+				50B856B2190C359E00C7A61A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50B856B2190C359E00C7A61A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B856B1190C359E00C7A61A /* libNETGraphite.a */,
+				50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B856B3190C359E00C7A61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50B856B4190C359E00C7A61A /* Foundation.framework */,
+				50B856C2190C359F00C7A61A /* XCTest.framework */,
+				50B856C5190C359F00C7A61A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50B856B6190C359F00C7A61A /* NETGraphite */ = {
+			isa = PBXGroup;
+			children = (
+				50B856B9190C359F00C7A61A /* NETGraphite.h */,
+				50B856BB190C359F00C7A61A /* NETGraphite.m */,
+				50B856B7190C359F00C7A61A /* Supporting Files */,
+			);
+			path = NETGraphite;
+			sourceTree = "<group>";
+		};
+		50B856B7190C359F00C7A61A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B856B8190C359F00C7A61A /* NETGraphite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50B856CA190C359F00C7A61A /* NETGraphiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B856D0190C359F00C7A61A /* NETGraphiteTests.m */,
+				50B856CB190C359F00C7A61A /* Supporting Files */,
+			);
+			path = NETGraphiteTests;
+			sourceTree = "<group>";
+		};
+		50B856CB190C359F00C7A61A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B856CC190C359F00C7A61A /* NETGraphiteTests-Info.plist */,
+				50B856CD190C359F00C7A61A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B856B0190C359E00C7A61A /* NETGraphite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphite" */;
+			buildPhases = (
+				50B856AD190C359E00C7A61A /* Sources */,
+				50B856AE190C359E00C7A61A /* Frameworks */,
+				50B856AF190C359E00C7A61A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NETGraphite;
+			productName = NETGraphite;
+			productReference = 50B856B1190C359E00C7A61A /* libNETGraphite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50B856C0190C359F00C7A61A /* NETGraphiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphiteTests" */;
+			buildPhases = (
+				50B856BD190C359F00C7A61A /* Sources */,
+				50B856BE190C359F00C7A61A /* Frameworks */,
+				50B856BF190C359F00C7A61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B856C8190C359F00C7A61A /* PBXTargetDependency */,
+			);
+			name = NETGraphiteTests;
+			productName = NETGraphiteTests;
+			productReference = 50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B856A9190C359E00C7A61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maxwell Cabral";
+			};
+			buildConfigurationList = 50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NETGraphite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50B856A8190C359E00C7A61A;
+			productRefGroup = 50B856B2190C359E00C7A61A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B856B0190C359E00C7A61A /* NETGraphite */,
+				50B856C0190C359F00C7A61A /* NETGraphiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B856BF190C359F00C7A61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856CF190C359F00C7A61A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B856AD190C359E00C7A61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856BC190C359F00C7A61A /* NETGraphite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B856BD190C359F00C7A61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856D1190C359F00C7A61A /* NETGraphiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B856C8190C359F00C7A61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B856B0190C359E00C7A61A /* NETGraphite */;
+			targetProxy = 50B856C7190C359F00C7A61A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B856CD190C359F00C7A61A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B856CE190C359F00C7A61A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B856D2190C359F00C7A61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50B856D3190C359F00C7A61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B856D5190C359F00C7A61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NETGraphite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		50B856D6190C359F00C7A61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NETGraphite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		50B856D8190C359F00C7A61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NETGraphiteTests/NETGraphiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50B856D9190C359F00C7A61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				INFOPLIST_FILE = "NETGraphiteTests/NETGraphiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NETGraphite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B856D2190C359F00C7A61A /* Debug */,
+				50B856D3190C359F00C7A61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B856D5190C359F00C7A61A /* Debug */,
+				50B856D6190C359F00C7A61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B856D8190C359F00C7A61A /* Debug */,
+				50B856D9190C359F00C7A61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B856A9190C359E00C7A61A /* Project object */;
+}
