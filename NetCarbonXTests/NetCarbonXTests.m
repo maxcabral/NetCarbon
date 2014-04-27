@@ -29,10 +29,10 @@
 
 - (void)testNETGraphite
 {
-    NETCarbon *graphite = [[NETCarbon alloc] initWithHost:[[NSURL alloc] initWithString:@"192.168.1.193"]];
+    NETCarbon *graphite = [[NETCarbon alloc] initWithHost:[[NSURL alloc] init]];
     graphite.timeout = 1;
     XCTAssertTrue([graphite connect],@"Connected to Graphite");
-    XCTAssertTrue([graphite sendPath:@"foo.bar.baz" intValue:700 andTime:[NSDate date]], @"Sent Data to Graphite");
+    XCTAssertTrue([graphite sendPath:@"foo.bar.baz" intValue:700 andTime:nil], @"Sent Data to Graphite");
     XCTAssertTrue([graphite sendPath:@"foo.bar.baz" intValue:100 andTime:[NSDate date]], @"Sent Data to Graphite");
     XCTAssertTrue([graphite sendPath:@"foo.bar.baz" intValue:1000 andTime:[NSDate date]], @"Sent Data to Graphite");
     XCTAssertTrue([graphite sendPath:@"foo.bar.baz" intValue:15 andTime:[NSDate date]], @"Sent Data to Graphite");

@@ -130,11 +130,11 @@ const NSUInteger kGraphiteTimeOutDefault = 5;
     [message appendFormat:@" %@",value];
     
     //Timestamp is optional
-    if (timestamp){
-        [message appendFormat:@" %ld",(long)[timestamp timeIntervalSince1970]];
+    if (!timestamp){
+        timestamp = [NSDate date];
     }
     
-    [message appendString:@"\n"];
+    [message appendFormat:@" %ld\n",(long)[timestamp timeIntervalSince1970]];
     
     if (!self.socket){
         [self connect];
