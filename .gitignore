@@ -6,3 +6,5 @@
 #
 # Pods/
 
+*.swp
+*.tmp
