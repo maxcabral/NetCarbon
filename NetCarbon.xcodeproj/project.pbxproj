@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		50B856B5190C359E00C7A61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B4190C359E00C7A61A /* Foundation.framework */; };
-		50B856BA190C359F00C7A61A /* NETGraphite.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B856B9190C359F00C7A61A /* NETGraphite.h */; };
-		50B856BC190C359F00C7A61A /* NETGraphite.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856BB190C359F00C7A61A /* NETGraphite.m */; };
 		50B856C3190C359F00C7A61A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856C2190C359F00C7A61A /* XCTest.framework */; };
 		50B856C4190C359F00C7A61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B4190C359E00C7A61A /* Foundation.framework */; };
 		50B856C6190C359F00C7A61A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856C5190C359F00C7A61A /* UIKit.framework */; };
-		50B856C9190C359F00C7A61A /* libNETGraphite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B1190C359E00C7A61A /* libNETGraphite.a */; };
-		50B856CF190C359F00C7A61A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B856CD190C359F00C7A61A /* InfoPlist.strings */; };
-		50B856D1190C359F00C7A61A /* NETGraphiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856D0190C359F00C7A61A /* NETGraphiteTests.m */; };
+		50B856C9190C359F00C7A61A /* libNetCarbon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856B1190C359E00C7A61A /* libNetCarbon.a */; };
+		50B856E6190CA7B200C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
+		50B856E7190CA7B200C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
+		50B856EB190CA7C600C7A61A /* NETCarbonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856EA190CA7C600C7A61A /* NETCarbonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,7 @@
 			containerPortal = 50B856A9190C359E00C7A61A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 50B856B0190C359E00C7A61A;
-			remoteInfo = NETGraphite;
+			remoteInfo = NETCarbon;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,24 +34,22 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				50B856BA190C359F00C7A61A /* NETGraphite.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		50B856B1190C359E00C7A61A /* libNETGraphite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNETGraphite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B856B1190C359E00C7A61A /* libNetCarbon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetCarbon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B856B4190C359E00C7A61A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		50B856B8190C359F00C7A61A /* NETGraphite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NETGraphite-Prefix.pch"; sourceTree = "<group>"; };
-		50B856B9190C359F00C7A61A /* NETGraphite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NETGraphite.h; sourceTree = "<group>"; };
-		50B856BB190C359F00C7A61A /* NETGraphite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NETGraphite.m; sourceTree = "<group>"; };
-		50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NETGraphiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B856C1190C359F00C7A61A /* NetCarbonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCarbonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B856C2190C359F00C7A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		50B856C5190C359F00C7A61A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		50B856CC190C359F00C7A61A /* NETGraphiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NETGraphiteTests-Info.plist"; sourceTree = "<group>"; };
-		50B856CE190C359F00C7A61A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		50B856D0190C359F00C7A61A /* NETGraphiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NETGraphiteTests.m; sourceTree = "<group>"; };
+		50B856E3190CA7B200C7A61A /* NetCarbon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NetCarbon-Prefix.pch"; path = "NETCarbon/NetCarbon-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		50B856E4190CA7B200C7A61A /* NETCarbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NETCarbon.h; path = NETCarbon/NETCarbon.h; sourceTree = SOURCE_ROOT; };
+		50B856E5190CA7B200C7A61A /* NETCarbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NETCarbon.m; path = NETCarbon/NETCarbon.m; sourceTree = SOURCE_ROOT; };
+		50B856E8190CA7BF00C7A61A /* NetCarbonTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NetCarbonTests-Info.plist"; path = "NETCarbonTests/NetCarbonTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		50B856EA190CA7C600C7A61A /* NETCarbonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NETCarbonTests.m; path = NETCarbonTests/NETCarbonTests.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B856C3190C359F00C7A61A /* XCTest.framework in Frameworks */,
-				50B856C9190C359F00C7A61A /* libNETGraphite.a in Frameworks */,
+				50B856C9190C359F00C7A61A /* libNetCarbon.a in Frameworks */,
 				50B856C6190C359F00C7A61A /* UIKit.framework in Frameworks */,
 				50B856C4190C359F00C7A61A /* Foundation.framework in Frameworks */,
 			);
@@ -81,8 +78,8 @@
 		50B856A8190C359E00C7A61A = {
 			isa = PBXGroup;
 			children = (
-				50B856B6190C359F00C7A61A /* NETGraphite */,
-				50B856CA190C359F00C7A61A /* NETGraphiteTests */,
+				50B856B6190C359F00C7A61A /* NETCarbon */,
+				50B856CA190C359F00C7A61A /* NETCarbonTests */,
 				50B856B3190C359E00C7A61A /* Frameworks */,
 				50B856B2190C359E00C7A61A /* Products */,
 			);
@@ -91,8 +88,8 @@
 		50B856B2190C359E00C7A61A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50B856B1190C359E00C7A61A /* libNETGraphite.a */,
-				50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */,
+				50B856B1190C359E00C7A61A /* libNetCarbon.a */,
+				50B856C1190C359F00C7A61A /* NetCarbonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,38 +104,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		50B856B6190C359F00C7A61A /* NETGraphite */ = {
+		50B856B6190C359F00C7A61A /* NETCarbon */ = {
 			isa = PBXGroup;
 			children = (
-				50B856B9190C359F00C7A61A /* NETGraphite.h */,
-				50B856BB190C359F00C7A61A /* NETGraphite.m */,
+				50B856E4190CA7B200C7A61A /* NETCarbon.h */,
+				50B856E5190CA7B200C7A61A /* NETCarbon.m */,
 				50B856B7190C359F00C7A61A /* Supporting Files */,
 			);
-			path = NETGraphite;
+			path = NETCarbon;
 			sourceTree = "<group>";
 		};
 		50B856B7190C359F00C7A61A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				50B856B8190C359F00C7A61A /* NETGraphite-Prefix.pch */,
+				50B856E3190CA7B200C7A61A /* NetCarbon-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		50B856CA190C359F00C7A61A /* NETGraphiteTests */ = {
+		50B856CA190C359F00C7A61A /* NETCarbonTests */ = {
 			isa = PBXGroup;
 			children = (
-				50B856D0190C359F00C7A61A /* NETGraphiteTests.m */,
+				50B856EA190CA7C600C7A61A /* NETCarbonTests.m */,
 				50B856CB190C359F00C7A61A /* Supporting Files */,
 			);
-			path = NETGraphiteTests;
+			path = NETCarbonTests;
 			sourceTree = "<group>";
 		};
 		50B856CB190C359F00C7A61A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				50B856CC190C359F00C7A61A /* NETGraphiteTests-Info.plist */,
-				50B856CD190C359F00C7A61A /* InfoPlist.strings */,
+				50B856E8190CA7BF00C7A61A /* NetCarbonTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50B856B0190C359E00C7A61A /* NETGraphite */ = {
+		50B856B0190C359E00C7A61A /* NetCarbon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphite" */;
+			buildConfigurationList = 50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NetCarbon" */;
 			buildPhases = (
 				50B856AD190C359E00C7A61A /* Sources */,
 				50B856AE190C359E00C7A61A /* Frameworks */,
@@ -158,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = NETGraphite;
-			productName = NETGraphite;
-			productReference = 50B856B1190C359E00C7A61A /* libNETGraphite.a */;
+			name = NetCarbon;
+			productName = NETCarbon;
+			productReference = 50B856B1190C359E00C7A61A /* libNetCarbon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		50B856C0190C359F00C7A61A /* NETGraphiteTests */ = {
+		50B856C0190C359F00C7A61A /* NetCarbonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphiteTests" */;
+			buildConfigurationList = 50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonTests" */;
 			buildPhases = (
 				50B856BD190C359F00C7A61A /* Sources */,
 				50B856BE190C359F00C7A61A /* Frameworks */,
@@ -176,9 +172,9 @@
 			dependencies = (
 				50B856C8190C359F00C7A61A /* PBXTargetDependency */,
 			);
-			name = NETGraphiteTests;
-			productName = NETGraphiteTests;
-			productReference = 50B856C1190C359F00C7A61A /* NETGraphiteTests.xctest */;
+			name = NetCarbonTests;
+			productName = NETCarbonTests;
+			productReference = 50B856C1190C359F00C7A61A /* NetCarbonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +186,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Maxwell Cabral";
 			};
-			buildConfigurationList = 50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NETGraphite" */;
+			buildConfigurationList = 50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NetCarbon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50B856B0190C359E00C7A61A /* NETGraphite */,
-				50B856C0190C359F00C7A61A /* NETGraphiteTests */,
+				50B856B0190C359E00C7A61A /* NetCarbon */,
+				50B856C0190C359F00C7A61A /* NetCarbonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B856CF190C359F00C7A61A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B856BC190C359F00C7A61A /* NETGraphite.m in Sources */,
+				50B856E6190CA7B200C7A61A /* NETCarbon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B856D1190C359F00C7A61A /* NETGraphiteTests.m in Sources */,
+				50B856EB190CA7C600C7A61A /* NETCarbonTests.m in Sources */,
+				50B856E7190CA7B200C7A61A /* NETCarbon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,21 +237,10 @@
 /* Begin PBXTargetDependency section */
 		50B856C8190C359F00C7A61A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50B856B0190C359E00C7A61A /* NETGraphite */;
+			target = 50B856B0190C359E00C7A61A /* NetCarbon */;
 			targetProxy = 50B856C7190C359F00C7A61A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		50B856CD190C359F00C7A61A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50B856CE190C359F00C7A61A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50B856D2190C359F00C7A61A /* Debug */ = {
@@ -329,11 +314,11 @@
 		50B856D5190C359F00C7A61A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NETGraphite.dst;
+				DSTROOT = /tmp/NETCarbon.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				GCC_PREFIX_HEADER = "NETCarbon/NetCarbon-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetCarbon;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -341,11 +326,11 @@
 		50B856D6190C359F00C7A61A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NETGraphite.dst;
+				DSTROOT = /tmp/NETCarbon.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				GCC_PREFIX_HEADER = "NETCarbon/NetCarbon-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetCarbon;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -359,13 +344,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
+				GCC_PREFIX_HEADER = "NETCarbon/NETCarbon-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NETGraphiteTests/NETGraphiteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NETCarbonTests/NetCarbonTests-Info.plist";
+				PRODUCT_NAME = NetCarbonTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -379,9 +364,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NETGraphite/NETGraphite-Prefix.pch";
-				INFOPLIST_FILE = "NETGraphiteTests/NETGraphiteTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NETCarbon/NETCarbon-Prefix.pch";
+				INFOPLIST_FILE = "NETCarbonTests/NetCarbonTests-Info.plist";
+				PRODUCT_NAME = NetCarbonTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -389,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NETGraphite" */ = {
+		50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NetCarbon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B856D2190C359F00C7A61A /* Debug */,
@@ -398,21 +383,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphite" */ = {
+		50B856D4190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NetCarbon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B856D5190C359F00C7A61A /* Debug */,
 				50B856D6190C359F00C7A61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NETGraphiteTests" */ = {
+		50B856D7190C359F00C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B856D8190C359F00C7A61A /* Debug */,
 				50B856D9190C359F00C7A61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

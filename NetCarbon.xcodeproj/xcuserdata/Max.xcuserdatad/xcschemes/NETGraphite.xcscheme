@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50B856B0190C359E00C7A61A"
-               BuildableName = "libNETGraphite.a"
-               BlueprintName = "NETGraphite"
-               ReferencedContainer = "container:NETGraphite.xcodeproj">
+               BuildableName = "libNetCarbon.a"
+               BlueprintName = "NetCarbon"
+               ReferencedContainer = "container:NetCarbon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50B856C0190C359F00C7A61A"
-               BuildableName = "NETGraphiteTests.xctest"
-               BlueprintName = "NETGraphiteTests"
-               ReferencedContainer = "container:NETGraphite.xcodeproj">
+               BuildableName = "NetCarbonTests.xctest"
+               BlueprintName = "NetCarbonTests"
+               ReferencedContainer = "container:NetCarbon.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
