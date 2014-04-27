@@ -136,6 +136,10 @@ const NSUInteger kGraphiteTimeOutDefault = 5;
     
     [message appendString:@"\n"];
     
+    if (!self.socket){
+        [self connect];
+    }
+    
     int failureCount = 0;
     
     //If we're not connected, try to connect three times before giving up

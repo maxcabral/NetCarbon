@@ -15,6 +15,14 @@
 		50B856E6190CA7B200C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
 		50B856E7190CA7B200C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
 		50B856EB190CA7C600C7A61A /* NETCarbonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856EA190CA7C600C7A61A /* NETCarbonTests.m */; };
+		50B856F2190CA9A400C7A61A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856F1190CA9A400C7A61A /* Cocoa.framework */; };
+		50B85702190CA9A400C7A61A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856C2190C359F00C7A61A /* XCTest.framework */; };
+		50B85703190CA9A400C7A61A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856F1190CA9A400C7A61A /* Cocoa.framework */; };
+		50B85706190CA9A400C7A61A /* NetCarbonX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B856F0190CA9A400C7A61A /* NetCarbonX.dylib */; };
+		50B8570C190CA9A400C7A61A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B8570A190CA9A400C7A61A /* InfoPlist.strings */; };
+		50B8570E190CA9A400C7A61A /* NetCarbonXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B8570D190CA9A400C7A61A /* NetCarbonXTests.m */; };
+		50B85715190CA9BE00C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
+		50B85716190CA9BF00C7A61A /* NETCarbon.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B856E5190CA7B200C7A61A /* NETCarbon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 50B856B0190C359E00C7A61A;
 			remoteInfo = NETCarbon;
+		};
+		50B85704190CA9A400C7A61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B856A9190C359E00C7A61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B856EF190CA9A400C7A61A;
+			remoteInfo = NetCarbonX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,6 +65,16 @@
 		50B856E5190CA7B200C7A61A /* NETCarbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NETCarbon.m; path = NETCarbon/NETCarbon.m; sourceTree = SOURCE_ROOT; };
 		50B856E8190CA7BF00C7A61A /* NetCarbonTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NetCarbonTests-Info.plist"; path = "NETCarbonTests/NetCarbonTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		50B856EA190CA7C600C7A61A /* NETCarbonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NETCarbonTests.m; path = NETCarbonTests/NETCarbonTests.m; sourceTree = SOURCE_ROOT; };
+		50B856F0190CA9A400C7A61A /* NetCarbonX.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = NetCarbonX.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B856F1190CA9A400C7A61A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		50B856F4190CA9A400C7A61A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50B856F5190CA9A400C7A61A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50B856F6190CA9A400C7A61A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		50B856F9190CA9A400C7A61A /* NetCarbonX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetCarbonX-Prefix.pch"; sourceTree = "<group>"; };
+		50B85701190CA9A400C7A61A /* NetCarbonXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCarbonXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B85709190CA9A400C7A61A /* NetCarbonXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetCarbonXTests-Info.plist"; sourceTree = "<group>"; };
+		50B8570B190CA9A400C7A61A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50B8570D190CA9A400C7A61A /* NetCarbonXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCarbonXTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +97,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50B856ED190CA9A400C7A61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B856F2190CA9A400C7A61A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B856FE190CA9A400C7A61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B85703190CA9A400C7A61A /* Cocoa.framework in Frameworks */,
+				50B85702190CA9A400C7A61A /* XCTest.framework in Frameworks */,
+				50B85706190CA9A400C7A61A /* NetCarbonX.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +123,8 @@
 			children = (
 				50B856B6190C359F00C7A61A /* NETCarbon */,
 				50B856CA190C359F00C7A61A /* NETCarbonTests */,
+				50B856F7190CA9A400C7A61A /* NetCarbonX */,
+				50B85707190CA9A400C7A61A /* NetCarbonXTests */,
 				50B856B3190C359E00C7A61A /* Frameworks */,
 				50B856B2190C359E00C7A61A /* Products */,
 			);
@@ -90,6 +135,8 @@
 			children = (
 				50B856B1190C359E00C7A61A /* libNetCarbon.a */,
 				50B856C1190C359F00C7A61A /* NetCarbonTests.xctest */,
+				50B856F0190CA9A400C7A61A /* NetCarbonX.dylib */,
+				50B85701190CA9A400C7A61A /* NetCarbonXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +147,8 @@
 				50B856B4190C359E00C7A61A /* Foundation.framework */,
 				50B856C2190C359F00C7A61A /* XCTest.framework */,
 				50B856C5190C359F00C7A61A /* UIKit.framework */,
+				50B856F1190CA9A400C7A61A /* Cocoa.framework */,
+				50B856F3190CA9A400C7A61A /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,7 +188,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50B856F3190CA9A400C7A61A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50B856F4190CA9A400C7A61A /* Foundation.framework */,
+				50B856F5190CA9A400C7A61A /* CoreData.framework */,
+				50B856F6190CA9A400C7A61A /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		50B856F7190CA9A400C7A61A /* NetCarbonX */ = {
+			isa = PBXGroup;
+			children = (
+				50B856F8190CA9A400C7A61A /* Supporting Files */,
+			);
+			path = NetCarbonX;
+			sourceTree = "<group>";
+		};
+		50B856F8190CA9A400C7A61A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B856F9190CA9A400C7A61A /* NetCarbonX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50B85707190CA9A400C7A61A /* NetCarbonXTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B8570D190CA9A400C7A61A /* NetCarbonXTests.m */,
+				50B85708190CA9A400C7A61A /* Supporting Files */,
+			);
+			path = NetCarbonXTests;
+			sourceTree = "<group>";
+		};
+		50B85708190CA9A400C7A61A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B85709190CA9A400C7A61A /* NetCarbonXTests-Info.plist */,
+				50B8570A190CA9A400C7A61A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50B856EE190CA9A400C7A61A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		50B856B0190C359E00C7A61A /* NetCarbon */ = {
@@ -177,6 +280,41 @@
 			productReference = 50B856C1190C359F00C7A61A /* NetCarbonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		50B856EF190CA9A400C7A61A /* NetCarbonX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B8570F190CA9A400C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonX" */;
+			buildPhases = (
+				50B856EC190CA9A400C7A61A /* Sources */,
+				50B856ED190CA9A400C7A61A /* Frameworks */,
+				50B856EE190CA9A400C7A61A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetCarbonX;
+			productName = NetCarbonX;
+			productReference = 50B856F0190CA9A400C7A61A /* NetCarbonX.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		50B85700190CA9A400C7A61A /* NetCarbonXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B85712190CA9A400C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonXTests" */;
+			buildPhases = (
+				50B856FD190CA9A400C7A61A /* Sources */,
+				50B856FE190CA9A400C7A61A /* Frameworks */,
+				50B856FF190CA9A400C7A61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B85705190CA9A400C7A61A /* PBXTargetDependency */,
+			);
+			name = NetCarbonXTests;
+			productName = NetCarbonXTests;
+			productReference = 50B85701190CA9A400C7A61A /* NetCarbonXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -185,6 +323,14 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Maxwell Cabral";
+				TargetAttributes = {
+					50B856C0190C359F00C7A61A = {
+						TestTargetID = 50B856EF190CA9A400C7A61A;
+					};
+					50B85700190CA9A400C7A61A = {
+						TestTargetID = 50B856EF190CA9A400C7A61A;
+					};
+				};
 			};
 			buildConfigurationList = 50B856AC190C359E00C7A61A /* Build configuration list for PBXProject "NetCarbon" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -200,6 +346,8 @@
 			targets = (
 				50B856B0190C359E00C7A61A /* NetCarbon */,
 				50B856C0190C359F00C7A61A /* NetCarbonTests */,
+				50B856EF190CA9A400C7A61A /* NetCarbonX */,
+				50B85700190CA9A400C7A61A /* NetCarbonXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B856FF190CA9A400C7A61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B8570C190CA9A400C7A61A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +388,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50B856EC190CA9A400C7A61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B85715190CA9BE00C7A61A /* NETCarbon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B856FD190CA9A400C7A61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B85716190CA9BF00C7A61A /* NETCarbon.m in Sources */,
+				50B8570E190CA9A400C7A61A /* NetCarbonXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,7 +413,23 @@
 			target = 50B856B0190C359E00C7A61A /* NetCarbon */;
 			targetProxy = 50B856C7190C359F00C7A61A /* PBXContainerItemProxy */;
 		};
+		50B85705190CA9A400C7A61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B856EF190CA9A400C7A61A /* NetCarbonX */;
+			targetProxy = 50B85704190CA9A400C7A61A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B8570A190CA9A400C7A61A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B8570B190CA9A400C7A61A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50B856D2190C359F00C7A61A /* Debug */ = {
@@ -338,6 +527,7 @@
 		50B856D8190C359F00C7A61A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetCarbonX.dylib";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -351,6 +541,7 @@
 				);
 				INFOPLIST_FILE = "NETCarbonTests/NetCarbonTests-Info.plist";
 				PRODUCT_NAME = NetCarbonTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -358,6 +549,7 @@
 		50B856D9190C359F00C7A61A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetCarbonX.dylib";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +559,95 @@
 				GCC_PREFIX_HEADER = "NETCarbon/NETCarbon-Prefix.pch";
 				INFOPLIST_FILE = "NETCarbonTests/NetCarbonTests-Info.plist";
 				PRODUCT_NAME = NetCarbonTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		50B85710190CA9A400C7A61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCarbonX/NetCarbonX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50B85711190CA9A400C7A61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCarbonX/NetCarbonX-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50B85713190CA9A400C7A61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetCarbonX.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCarbonX/NetCarbonX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NetCarbonXTests/NetCarbonXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50B85714190CA9A400C7A61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetCarbonX.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCarbonX/NetCarbonX-Prefix.pch";
+				INFOPLIST_FILE = "NetCarbonXTests/NetCarbonXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -400,6 +681,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		50B8570F190CA9A400C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B85710190CA9A400C7A61A /* Debug */,
+				50B85711190CA9A400C7A61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50B85712190CA9A400C7A61A /* Build configuration list for PBXNativeTarget "NetCarbonXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B85713190CA9A400C7A61A /* Debug */,
+				50B85714190CA9A400C7A61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
