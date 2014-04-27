@@ -14,3 +14,5 @@ Using the library is simple:
     BOOL connected = [graphite connect];
     //Time is optional, defaults to [NSDate date]
     [graphite sendPath:@"foo.bar.baz" intValue:700 andTime:nil];
+
+See https://github.com/newspaperclub/statsd-cocoa for an Objective C StatsD client
